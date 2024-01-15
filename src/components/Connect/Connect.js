@@ -21,12 +21,18 @@ const Connect = ({heading = 'Connect With Us'}) => {
         <div className={styles.icon_container}>
           <div className={styles.single_icon}>
           <img alt='social' src={require('./icons/instagram.png')} className={styles.social_icons}/>
-            spiceroute699
+            <button 
+            onClick={()=>window.open('https://www.instagram.com/spiceroute699?igsh=MzRlODBiNWFlZA==')}
+            className={styles.social_button}
+            >spiceroute699</button>
           </div>
           
           <div className={styles.single_icon}>
           <img alt='social' src={require('./icons/facebook.jpg')} className={styles.social_icons}/>
-            spiceroute15
+            <button 
+            onClick={()=>window.open('https://www.facebook.com/spiceroute15?mibextid=rS40aB7S9Ucbxw6v')}
+            className={styles.social_button}
+            >spiceroute15</button>
           </div>
         </div>
 
