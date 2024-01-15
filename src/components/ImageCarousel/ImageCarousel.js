@@ -22,7 +22,7 @@ const ImageCarousel = () => {
             }else {
                 setCurrent(current+1);
             }
-        },2000);
+        },1700);
 
         return () => {
             clearInterval(timerId);
