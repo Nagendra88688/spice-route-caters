@@ -1,0 +1,12 @@
+.story_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.story_heading {
+    margin: 20px 0;
+    font-size: 1.6rem;
+    color: #647B4E;
+}
