@@ -1,0 +1,40 @@
+.welcome_container {
+    margin: 16px;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+}
+
+.sub_container {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome_heading {
+    margin: 20px 0;
+    color: #647B4E;
+    font-size: 1.5rem;
+}
+
+.author {
+    color: gray;
+    margin: 8px 0;
+}
+
+.welcome_image{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    border-top-left-radius: 80px;
+}
+
+
+@media(max-width: 600px) {
+  .welcome_container {
+    display: block;
+  }
+}
