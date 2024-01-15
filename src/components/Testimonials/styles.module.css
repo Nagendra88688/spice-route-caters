@@ -1,0 +1,20 @@
+.client_heading{
+    margin: 20px 0;
+    font-size: 1.6rem;
+    color: #647B4E;
+}
+
+.testimonial_message {
+    text-align: start;
+    background: #e4ece4;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 50vw;
+}
+
+@media(max-width: 600px) {
+    .testimonial_message {
+        width: 80vw;
+    }
+  }
