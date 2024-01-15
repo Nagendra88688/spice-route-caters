@@ -33,7 +33,7 @@ const ImageCarousel = () => {
   return (
     <div className={styles.container}>
         <div className={styles.fade}>
-        <img alt='banner-image'  src={require(`${IMAGE_URL_MAPPING[current]}`)} className={styles.banner_image} />
+        <img alt='banner'  src={require(`${IMAGE_URL_MAPPING[current]}`)} className={styles.banner_image} />
         </div>
     </div>
   )
