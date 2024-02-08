@@ -5,12 +5,12 @@ const Welcome = () => {
   return (
     <div className={styles.welcome_container}>
         <div className={styles.sub_container}>
-          <div className={styles.welcome_heading}>WELCOME TO SPICE ROUTE CATERS</div>
+          <div className={styles.welcome_heading}>WELCOME TO SPICE ROUTE CATTERS</div>
           <div className={styles.welcome_text}>
-           Welcome to Spice Route Caters, 
+           Welcome to Spice Route Catters, 
            <div>where culinary excellence meets your every occasion.</div>
            Our passion for creating unforgettable dining experiences is evident in every dish we craft. 
-           At Spice Route Caters, we blend the finest ingredients with a touch of innovation to bring you a symphony of flavors that will tantalize your taste buds. 
+           At Spice Route Catters, we blend the finest ingredients with a touch of innovation to bring you a symphony of flavors that will tantalize your taste buds. 
            From intimate gatherings to grand celebrations, our dedicated team ensures meticulous attention to detail, leaving you free to savor every moment. 
           </div>
           <div className={styles.author}>

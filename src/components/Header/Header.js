@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div style={{margin: '2em 0'}}>
        <div className={styles.header}>
-        SPICE ROUTE CATERS
+        SPICE ROUTE CATTERS
     </div>
 
     <div className={styles.sub_heading}>
